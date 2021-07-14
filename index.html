@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="author" content="Md Soliman Faragy">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Creat-new-color.css">
+    <title>Creat new color circle with multiple color for a e-commerce color option radio inputs </title>
+  </head>
+  <body>
+    <p>This scripts will help you to create a multicolor circle by different colors for radio options color swatches in eCommerce platforms. I hope that will help. If you have any query or if you need any help to develop/customize your eCommerce platfor please feel free to contact me!
+
+    <br>Author: Md Soliman Faragy <br>Email: solimankhulna@gmail.com <br> skype: solimanbd4321<br> Codepen Link: https://codepen.io/sfaragy/pen/VwbvXLJ</p>
+    <br><br>
+    <!--    Color Generation Section Start -->
+    <div id="input-optionx" class="row">
+      <div class="radio" onmouseover="onmouseOverSelection(0)"> 
+        <label>
+            <div class="tm-radio">
+                <input type="radio" name="option1" value="0" 
+                       id="input-option0" class="tm-hide">
+            </div>
+            <div style="border-radius: 100px;border-right-color: #87CEEB;
+                        border-top-color: #87CEEB;border-bottom-color:
+                        #87CEEB;border-left-color: #87CEEB;      
+                        border-width: 100px;border-style:solid;
+                        height: 0px;width: 0px;" data-toggle="tooltip" 
+                 data-original-title="One Color">
+            </div>    
+          </label>
+        </div>
+
+      <div class="radio" onmouseover="onmouseOverSelection(1)"> 
+        <label>
+            <div class="tm-radio">
+                <input type="radio" name="option1" value="1" 
+                       id="input-option1" class="tm-hide">
+            </div>
+            <div style="border-radius: 100px;border-right-color: #000000;
+                        border-top-color: #6B2B04;border-bottom-color:
+                        #000000;border-left-color: #6B2B04;      
+                        border-width: 100px;border-style:solid;
+                        height: 0px;width: 0px;" data-toggle="tooltip" 
+                 data-original-title="Two Colors">
+            </div>    
+          </label>
+        </div>
+      
+      <div class="radio" onmouseover="onmouseOverSelection(2)"> 
+        <label>
+            <div class="tm-radio tm-selected">
+                <input type="radio" name="option1" value="2" 
+                       id="input-option2" class="tm-hide">
+            </div>
+            <div style="border-radius: 100px;border-right-color: #F76543;           border-top-color: #87CEEB;border-bottom-color: 
+                        #6B2B04;border-left-color: #87CEEB;      
+                        border-width: 100px;border-style:solid;
+                        height: 0px;width: 0px;" 
+                 data-toggle="tooltip" 
+                 data-original-title="Three Colors ">
+             </div>          
+          </label>
+        </div>
+      
+      <div class="radio" onmouseover="onmouseOverSelection(3)"> 
+        <label>
+            <div class="tm-radio">
+                <input type="radio" name="option1" value="3" 
+                       id="input-option3" class="tm-hide">
+            </div>
+            <div style="border-radius: 100px;border-right-color: #ce456d;
+                        border-top-color: #800080;border-bottom-color:
+                        #87CEEB;border-left-color: #edc321;
+                        border-width: 100px;border-style:solid;
+                        height: 0px;width: 0px;" 
+                 data-toggle="tooltip" 
+                 data-original-title="Four Colors">
+             </div>
+           </label>
+        </div>
+     </div>
+     <!--    Color Generation Section END -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Creat-new-color.js"></script> 
+  </body>
+</html>
