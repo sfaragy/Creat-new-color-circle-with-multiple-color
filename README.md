@@ -3,7 +3,7 @@ This scripts will help you to create a multicolor circle by different colors for
 
 https://youtu.be/QVSFlxjd06s
 
-<img src="https://github.com/sfaragy/On-click-youtube-video-loading/blob/6adca3de99b860c98b46be0d7e7e4782383f002c/images/Screenshot(1).png">
+<img src="https://github.com/sfaragy/Creat-new-color-circle-with-multiple-color/blob/main/images/Screenshot.png">
 Codepen Link: https://codepen.io/sfaragy/pen/VwbvXLJ
 Author: Md Soliman Faragy
 Email: solimankhulna@gmail.com
